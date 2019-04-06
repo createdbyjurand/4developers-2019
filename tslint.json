@@ -1,0 +1,18 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "curly": [true, "as-needed"],
+    "jsx-no-lambda": false,
+    "max-line-length": false,
+    "no-console": false,
+    "no-empty-interface": false,
+    "ordered-imports": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "always"],
+    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}]
+  },
+  "linterOptions": {
+    "exclude": ["config/**/*.js", "node_modules/**/*.ts"]
+  }
+}
